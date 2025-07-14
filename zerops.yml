@@ -16,7 +16,7 @@ zerops:
         - |
           cd /var/www/runner && ./config.sh --url ${RUNNER_REPO} \
             --token ${GITHUB_RUNNER_TOKEN} \
-            --name "zerops-runner-${HOSTNAME}" \
+            --name "zerops-runner-${hostname}" \
             --labels self-hosted,linux,x64,zerops,node22 \
             --unattended \
             --replace
