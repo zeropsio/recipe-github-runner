@@ -1,0 +1,5 @@
+services:
+  - hostname: ghnodejs22
+    type: nodejs@22
+    envSecrets:
+      GITHUB_RUNNER_TOKEN: xxx
